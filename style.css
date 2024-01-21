@@ -36,11 +36,16 @@ header{
     justify-content: space-between;
 }
 
+.navigation-bar #logo{
+    font-family: monospace;
+}
+
 ul{
+    margin: 15px 0 0 0;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 40px;
 }
 
 .navigation-bar .nav-content{
@@ -54,7 +59,7 @@ ul{
     max-width: 340px;
     font-size: 14px;
     font-weight: normal;
-    margin: 2px;
+    margin: 20px 20px 20px 0;
     text-align: start;
 }
 
@@ -78,9 +83,19 @@ button{
     width: 400px;
     height: 200px;
     background-color: grey;
-    margin:25px  50px 0 0;
+    margin:20px  30px 0 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 
+}
+
+.second img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .center{
@@ -134,6 +149,16 @@ main{
     width: 170px;
     height: 150px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.one img{
+    flex-shrink: 0;
+    min-width: 70%;
+    min-height: 80%
 }
 
 .second-content{
